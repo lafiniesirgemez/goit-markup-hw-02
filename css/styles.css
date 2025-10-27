@@ -5,7 +5,7 @@ body {
 }
 h1 {
   color: #ffff;
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -40,26 +40,32 @@ ul {
 }
 
 .menu .menulist {
-  color: #2e2f42;
+  color: #434455;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-decoration: none;
 }
-
-.address .contactlist {
+.menuu .menulist:hover {
   color: #2e2f42;
+  text-decoration: none;
+}
+.address .contactlist {
+  color: #434455;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .address .contactlist:hover {
-  color: #404bbf;
+  color: #2e2f42;
+  text-decoration: none;
 }
 .address .contactlist:focus {
-  color: #404bbf;
+  color: #2e2f42;
 }
 
 .hero-image {
@@ -166,7 +172,7 @@ p {
 }
 .footer-logo {
   color: #4d5ae5;
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-style: Bold;
   font-size: 18px;
