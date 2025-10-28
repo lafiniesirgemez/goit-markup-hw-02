@@ -49,8 +49,10 @@ ul {
   text-decoration: none;
 }
 .menuu .menulist:hover {
-  color: #2e2f42;
-  text-decoration: none;
+  color: #404bbf;
+}
+.menu .menulist:focus {
+  color: #404bbf;
 }
 .address .contactlist {
   color: #434455;
@@ -61,11 +63,11 @@ ul {
   text-decoration: none;
 }
 .address .contactlist:hover {
-  color: #2e2f42;
+  color: #404bbf;
   text-decoration: none;
 }
 .address .contactlist:focus {
-  color: #2e2f42;
+  color: #404bbf;
 }
 
 .hero-image {
@@ -179,6 +181,7 @@ p {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .footer-logo-sp {
   color: #f4f4fd;
